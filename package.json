@@ -1,0 +1,23 @@
+{
+  "name": "totem.template.typography",
+  "version": "0.2.0",
+  "description": "Template structure for displaying typography documentation",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/toolbarthomas/totem.template.typography.git"
+  },
+  "keywords": [
+    "totem",
+    "template",
+    "totem-template"
+  ],
+  "author": "Thomas van der Velde <contact@toolbarthomas.net>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/toolbarthomas/totem.template.typography/issues"
+  },
+  "homepage": "https://github.com/toolbarthomas/totem.template.typography#readme"
+}
