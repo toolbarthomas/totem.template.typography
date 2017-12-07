@@ -17,7 +17,7 @@ section {
             display: inline-block;
             color: color('font', 'light');
 
-            @include breakpoint($min-width: wrapper-style('default', 'max-width')) {
+            @include breakpoint($min-width: wrapper-style('base', 'max-width')) {
                 position: absolute;
                 right: 100%;
                 margin-right: box-model('gutter', 'small');
