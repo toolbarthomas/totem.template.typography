@@ -3,7 +3,7 @@ body {
 }
 
 section {
-    padding: box-model('gutter', 'medium') 0;
+    padding: box-model('padding', 'medium') 0;
     counter-increment: section;
 
     + section {
@@ -16,12 +16,6 @@ section {
         &::before {
             display: inline-block;
             color: color('font', 'light');
-
-            @include breakpoint($min-width: wrapper-style('base', 'max-width')) {
-                position: absolute;
-                right: 100%;
-                margin-right: box-model('gutter', 'small');
-            }
         }
     }
 
